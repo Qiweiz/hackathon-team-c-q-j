@@ -1,5 +1,4 @@
 module.exports = function(grunt) {
-   grunt.loadNpmTasks('grunt-contrib-uglify');
    grunt.loadNpmTasks('grunt-contrib-less');
    grunt.loadNpmTasks('grunt-contrib-handlebars');
    grunt.loadNpmTasks('grunt-contrib-requirejs');
@@ -8,10 +7,15 @@ module.exports = function(grunt) {
    var fs = require('fs'),
    glob = require('glob'),
    log = function(msg) { grunt.log.writeln(msg); },
-   x = 'empty:';
+   x = 'empty:',
+   options = require('argv').option([
+      // List of unix style options
+      { name: 'log-tweets', short: 'l', type: 'boolean' },
+      { name: 'nomin', short: 'n', type: 'boolean'}
+   ]).run().options;
 
    var config = {
-      min: true,
+      min: !options.nomin,
       buildDir: 'dist'
    };
 
@@ -24,7 +28,7 @@ module.exports = function(grunt) {
          yuicompress: '<%=min%>'
       },
       main: {
-         files: { '<%=buildDir%>/main.css': ['**/*.{less,css}'] }
+         files: { '<%=buildDir%>/main.css': ['src/**/*.{less,css}'] }
       }
    };
 
@@ -51,7 +55,7 @@ module.exports = function(grunt) {
       },
       main: {
          dest:'<%=buildDir%>/hbt.js',
-         src:['**/*.hbt']
+         src:['src/**/*.hbt']
       }
    };
 
@@ -61,7 +65,8 @@ module.exports = function(grunt) {
    config.copy = {
       main: {
          expand: true,
-         src: ['**/*.{png,jpg,gif}'],
+         cwd: 'src',
+         src: ['./**/*.{png,jpg,gif,js,html}'],
          dest: '<%=buildDir%>/'
       }
    };
@@ -74,12 +79,14 @@ module.exports = function(grunt) {
             },
             optimize: '<%= min? "uglify":"none" %>',
             removeCombined: true,
+            skipModuleInsertion: true,
             baseUrl: '<%=buildDir%>/',
             out: '<%=buildDir%>/main.js',
-            include: ['main.js']
+            include: ['main.js'],
+            paths: {}
          }
       }
-   }
+   };
 
    config.clean = {
       main: ['<%=buildDir%>/']
@@ -90,13 +97,7 @@ module.exports = function(grunt) {
    grunt.registerTask(
       'build',
       'Please check the "How to Build" section of readme.md',
-      ['clean:main', 'less:main', 'copy:main', 'handlebars:main', 'wrap-hbt']
-   );
-
-   grunt.registerTask(
-      'nomin',
-      'Prevents css and javascript from being minimized. They may still be concatenated.',
-      function() { config.min = false; }
+      ['clean:main', 'less:main', 'copy:main', 'handlebars:main', 'wrap-hbt', 'requirejs:main']
    );
 
    grunt.registerTask(
@@ -129,4 +130,6 @@ module.exports = function(grunt) {
          }
       }
    );
+
+   grunt.registerTask('default', ['build']);
 };
