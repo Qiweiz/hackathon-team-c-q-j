@@ -4,7 +4,7 @@ define(['dropper', 'hbt', 'data'], function(dropper, HBT, data) {
    */
 
    var game = {},
-   START_TIME = 20,
+   START_TIME = 60,
    gameWindow = $('.game'),
    stage = $('.stage'),
    reticle = $('.reticle'),
@@ -64,7 +64,7 @@ define(['dropper', 'hbt', 'data'], function(dropper, HBT, data) {
 
    function showScores() {
       data.getUser(function(user) {
-         $('high-scores-item').remove();
+         $('.high-scores-item').remove();
          highScoresDisplay
             .append( HBT['high-score'](user) )
             .fadeIn();
