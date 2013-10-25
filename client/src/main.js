@@ -1,5 +1,7 @@
-(function(require){
-   require([], function() {
-      // TO DO
-   });
-})(curl);
+$(function() {
+   var require = curl;
+   /*
+      Initialize and begin the game
+   */
+   require(['game'], function(game) {});
+});

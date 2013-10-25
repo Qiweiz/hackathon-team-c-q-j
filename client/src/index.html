@@ -5,15 +5,35 @@
    <title>Twitter Shooter</title>
    <link rel='stylesheet' type='text/css' href='main.css'>
    <script src='http://codeorigin.jquery.com/jquery-2.0.3.min.js'></script>
+   <script src='jquery.jsonp-2.4.0.min.js'></script>
+   <script src='jquery.modal.min.js'></script>
+   <script src='handlebars.js'></script>
    <script src='curl.js'></script>
    <script src='main.js'></script>
 </head>
 <body>
    <div class='game'>
       <div class='stage'></div>
-      <img class='reticle' src=/>
       <div class='time'>99:99:99</div>
       <div class='score'>Score 00900</div>
+      <button class='restart'>Restart</button>
+      <div class='high-scores'>
+         <div class='high-scores-header'>High Scores</div>
+      </div>
+   </div>
+
+   <div class="overlay"></div>
+   <div class="modal">
+      <label for='user-name'>User Name</label>
+      <input id='user-name' type='text' />
+
+      <label for='hash1'>1st Query</label>
+      <input id='hash1' type='text' />
+
+      <label for='hash2'>2nd Query</label>
+      <input id='hash2' type='text' />
+
+      <input class='modal-button' type="submit" />
    </div>
 </body>
 </html>

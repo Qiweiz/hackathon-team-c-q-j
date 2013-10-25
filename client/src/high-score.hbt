@@ -1,0 +1,3 @@
+{{#each scores}}
+   <div class='high-scores-item'>{{this}}</div>
+{{/each}}

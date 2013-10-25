@@ -1,7 +1,7 @@
 module.exports = function(grunt) {
    grunt.loadNpmTasks('grunt-contrib-less');
    grunt.loadNpmTasks('grunt-contrib-handlebars');
-   grunt.loadNpmTasks('grunt-contrib-requirejs');
+   grunt.loadNpmTasks('grunt-contrib-uglify');
    grunt.loadNpmTasks('grunt-contrib-clean');
    grunt.loadNpmTasks('grunt-contrib-copy');
    var fs = require('fs'),
@@ -71,20 +71,15 @@ module.exports = function(grunt) {
       }
    };
 
-   config.requirejs = {
-      main: {
-         options: {
-            has: {
-               // Enable debugging code enclosed by `if (has('option')) {}`
-            },
-            optimize: '<%= min? "uglify":"none" %>',
-            removeCombined: true,
-            skipModuleInsertion: true,
-            baseUrl: '<%=buildDir%>/',
-            out: '<%=buildDir%>/main.js',
-            include: ['main.js'],
-            paths: {}
-         }
+   config.uglify = {
+      options: {
+         mangle: !config.min,
+         compress: !config.min
+      },
+      main: options.nomin? {} : {
+         expand: true,
+         src: ['<%=buildDir%>/**/*.js'],
+         dest: '.'
       }
    };
 
@@ -97,7 +92,7 @@ module.exports = function(grunt) {
    grunt.registerTask(
       'build',
       'Please check the "How to Build" section of readme.md',
-      ['clean:main', 'less:main', 'copy:main', 'handlebars:main', 'wrap-hbt', 'requirejs:main']
+      ['clean:main', 'less:main', 'copy:main', 'handlebars:main', 'wrap-hbt', 'uglify:main']
    );
 
    grunt.registerTask(
@@ -106,7 +101,7 @@ module.exports = function(grunt) {
       function() {
          var files, content, globPath, numTargets, newContent,
          cjsRegex = /(?:module.exports = function\(Handlebars\) {([\s\S]*)};)/,
-         replacementStr = "define(['handlebars'], function(Handlebars) {$1});",
+         replacementStr = "define([], function() {$1});",
          targets = [].splice.call(arguments, 0);
 
          if (!targets.length)

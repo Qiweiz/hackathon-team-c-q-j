@@ -28,6 +28,13 @@ body {
 
    font-size: 18px;
    font-family: sans-serif;
+
+   -webkit-touch-callout: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
 }
 
 .stage {
@@ -37,6 +44,8 @@ body {
 
    width: 100%;
    height: 100%;
+
+   overflow: hidden;
 }
 
 .score {
@@ -56,4 +65,137 @@ body {
 
 
    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.tweet {
+   position: absolute;
+   top: -50%;
+   left: 0;
+   min-height: 51px;
+   max-width: 300px;
+   padding: 5px;
+
+   background-color: #FFFFFF;
+   border: 1px solid #6FA3C4;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+   webkit-box-shadow: 0 0 125px rgba(255, 255, 255, 0.35);
+   -moz-box-shadow: 0 0 125px rgba(255,255,255,.35);
+   box-shadow: 0 0 125px rgba(255, 255, 255, 0.35);
+
+   cursor: pointer;
+}
+
+.tweet-avatar {
+   float: left;
+   width: 48px;
+   height: 48px;
+   background-color: #6FA3C4;
+}
+
+.tweet-header {
+   float: left;
+   margin: 0 0 10px 10px;
+}
+
+.tweet-name {}
+
+.tweet-id {
+   color: #8A8A8A;
+}
+
+.tweet-content {
+   float: left;
+   clear: left;
+   margin-bottom: 10px;
+
+   font-size: 12px;
+}
+
+.tweet-time {
+   float: right;
+   clear: left;
+
+   color: #8A8A8A;
+   font-size: 12px;
+}
+
+.restart {
+   position: absolute;
+   top: 0;
+   left: 0;
+   margin: 0 10px 10px 10px;
+   padding: 5px;
+   background-color: #FFF;
+   border: 1px solid #6FA3C4;
+   border-bottom-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+   webkit-box-shadow: 0 0 125px rgba(255, 255, 255, 0.35);
+   -moz-box-shadow: 0 0 125px rgba(255,255,255,.35);
+   box-shadow: 0 0 125px rgba(255, 255, 255, 0.35);
+   // text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.restart:hover {
+   box-shadow: 0 0 10px 2px #0093DB;
+   -moz-box-shadow: 0 0 10px 2px #0093DB;
+   webkit-box-shadow: 0 0 10px 2px #0093DB;
+}
+
+.restart:active {
+   background-color: #6FA3C4;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: none;
+}
+
+.modal {
+  display: none;
+  padding: 10px;
+  z-index: 1001;
+  position: absolute;
+
+   background-color: #FFFFFF;
+   border: 1px solid #6FA3C4;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+   webkit-box-shadow: 0 0 125px rgba(255, 255, 255, 0.35);
+   -moz-box-shadow: 0 0 125px rgba(255,255,255,.35);
+   box-shadow: 0 0 125px rgba(255, 255, 255, 0.35);
+}
+
+.modal-button {}
+
+input {
+   float: left;
+   margin: 10px;
+   padding: 5px;
+   border: 0;
+   color: #000000;
+   box-shadow: 0 0 1px 1px #0093DB;
+}
+input:focus {
+   box-shadow: 0 0 10px 2px #0093DB;
+}
+label {
+   float: left;
+   width: 5em;
+   text-align: right;
+   margin: 10px;
+   padding: 5px;
+   clear: left;
+}
+
+.high-scores {
+   padding: 50px;
+   text-align: center;
+   overflow: hidden;
+   display: block;
 }

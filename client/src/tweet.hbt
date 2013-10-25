@@ -1,0 +1,9 @@
+<div class='tweet'>
+   <img class='tweet-avatar' src='{{avatar}}' />
+   <div class='tweet-header'>
+      <div class='tweet-name'>{{name}}</div>
+      <div class='tweet-id'>@{{username}}</div>
+   </div>
+   <div class='tweet-content'>{{content}}</div>
+   <div class='tweet-time'>{{time}}</div>
+</div>
