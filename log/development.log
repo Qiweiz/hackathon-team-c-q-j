@@ -1718,3 +1718,1403 @@ Started GET "/get_tweets.jsonp?callback=tweets_99053" for 10.101.100.134 at 2013
 Processing by SessionsController#get_tweets as 
   Parameters: {"callback"=>"tweets_99053"}
 Completed 200 OK in 3385ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_49859" for 10.101.100.134 at 2013-10-24 20:46:46 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_49859"}
+Completed 200 OK in 3178ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_38864" for 10.101.100.134 at 2013-10-24 20:51:04 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_38864"}
+Completed 200 OK in 5020ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_38864" for 10.101.100.134 at 2013-10-24 20:51:50 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_38864"}
+Completed 200 OK in 4701ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_38864" for 10.101.100.134 at 2013-10-24 20:54:18 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_38864"}
+Completed 200 OK in 3496ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_26900" for 10.101.100.134 at 2013-10-24 20:57:17 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_26900"}
+Completed 200 OK in 3250ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_19849" for 10.101.100.134 at 2013-10-24 20:58:51 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_19849"}
+Completed 200 OK in 3320ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_74405" for 10.101.100.134 at 2013-10-24 20:59:53 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_74405"}
+Completed 200 OK in 2581ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_04004" for 10.101.100.134 at 2013-10-24 21:00:15 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_04004"}
+Completed 200 OK in 3231ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_32203" for 10.101.100.134 at 2013-10-24 21:01:05 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_32203"}
+Completed 200 OK in 3362ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_01909" for 10.101.100.134 at 2013-10-24 21:02:34 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_01909"}
+Completed 200 OK in 3494ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_35452" for 10.101.100.134 at 2013-10-24 21:08:28 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_35452"}
+Completed 200 OK in 3681ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_12419" for 10.101.100.134 at 2013-10-24 21:11:30 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_12419"}
+Completed 200 OK in 4435ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_81813" for 10.101.100.134 at 2013-10-24 21:13:32 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_81813"}
+Completed 200 OK in 3256ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_86396" for 10.101.100.134 at 2013-10-24 21:15:19 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_86396"}
+Completed 200 OK in 2635ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_58987" for 10.101.100.134 at 2013-10-24 21:15:54 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_58987"}
+Completed 200 OK in 3161ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_42261" for 10.101.100.224 at 2013-10-24 21:16:19 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_42261"}
+Completed 200 OK in 3128ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login?username=helloworld" for 10.101.100.134 at 2013-10-24 21:19:54 -0700
+
+ActionController::RoutingError (No route matches [GET] "/login"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/local/OFFICE/jsulistio/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/local/OFFICE/jsulistio/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/local/OFFICE/jsulistio/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (26.1ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (49.8ms)
+
+
+Started GET "/login/?username=helloworld" for 10.101.100.134 at 2013-10-24 21:20:01 -0700
+
+ActionController::RoutingError (No route matches [GET] "/login"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/local/OFFICE/jsulistio/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/local/OFFICE/jsulistio/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/local/OFFICE/jsulistio/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (22.9ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_58177" for 10.101.100.224 at 2013-10-24 21:20:13 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_58177"}
+Completed 200 OK in 3007ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_90392" for 10.101.100.134 at 2013-10-24 21:26:56 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_90392"}
+Completed 200 OK in 3285ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_94210" for 10.101.100.134 at 2013-10-24 21:31:57 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_94210"}
+Completed 200 OK in 3338ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_20277" for 10.101.100.134 at 2013-10-24 21:32:26 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_20277"}
+Completed 200 OK in 3308ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_57958" for 10.101.100.224 at 2013-10-24 21:33:54 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_57958"}
+Completed 200 OK in 2510ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_19587" for 10.101.100.134 at 2013-10-24 21:35:46 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_19587"}
+Completed 200 OK in 3583ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_13692" for 10.101.100.134 at 2013-10-24 21:36:05 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_13692"}
+Completed 200 OK in 3028ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_25418" for 10.101.100.134 at 2013-10-24 21:37:45 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_25418"}
+Completed 200 OK in 3233ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_58914" for 10.101.100.134 at 2013-10-24 21:40:31 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_58914"}
+Completed 200 OK in 2503ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_43733" for 10.101.100.224 at 2013-10-24 21:44:44 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_43733"}
+Completed 200 OK in 3092ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_06034" for 10.101.100.134 at 2013-10-24 21:48:17 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_06034"}
+Completed 200 OK in 3182ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_08160" for 10.101.100.134 at 2013-10-24 21:51:38 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_08160"}
+Completed 200 OK in 2760ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_17112" for 10.101.100.134 at 2013-10-24 21:57:06 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_17112"}
+Completed 200 OK in 3414ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_35013" for 10.101.100.182 at 2013-10-24 21:58:00 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_35013"}
+Completed 200 OK in 2915ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_35863" for 10.101.100.182 at 2013-10-24 21:59:11 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_35863"}
+Completed 200 OK in 3174ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_92635" for 10.101.100.224 at 2013-10-24 22:00:51 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_92635"}
+Completed 200 OK in 3136ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_09258" for 10.101.100.134 at 2013-10-24 22:02:54 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_09258"}
+Completed 200 OK in 3104ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_45486" for 10.101.100.134 at 2013-10-24 22:04:46 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_45486"}
+Completed 200 OK in 3068ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_88429" for 10.101.100.134 at 2013-10-24 22:05:57 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_88429"}
+Completed 200 OK in 2632ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_44060" for 10.101.100.134 at 2013-10-24 22:06:39 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_44060"}
+Completed 200 OK in 3077ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_65607" for 10.101.100.182 at 2013-10-24 22:07:23 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_65607"}
+Completed 200 OK in 3198ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_40452" for 10.101.100.182 at 2013-10-24 22:07:27 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_40452"}
+Completed 200 OK in 2393ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_38851" for 10.101.100.134 at 2013-10-24 22:11:22 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_38851"}
+  [1m[35mUser Load (0.6ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (16.8ms)[0m  INSERT INTO `users` (`created_at`, `updated_at`) VALUES ('2013-10-25 05:11:22', '2013-10-25 05:11:22')
+  [1m[36m (168.1ms)[0m  [1mCOMMIT[0m
+Completed 500 Internal Server Error in 3538ms
+
+SystemStackError (stack level too deep):
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:70
+
+
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.7ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_38851" for 10.101.100.134 at 2013-10-24 22:13:33 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_38851"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1
+Completed 500 Internal Server Error in 3426ms
+
+SystemStackError (stack level too deep):
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:70
+
+
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (36.2ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_38851&hashtag1=yolo&hashtag2=kanye" for 10.101.100.134 at 2013-10-24 22:13:59 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_38851", "hashtag1"=>"yolo", "hashtag2"=>"kanye"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Completed 500 Internal Server Error in 3263ms
+
+SystemStackError (stack level too deep):
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:70
+
+
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.2ms)
+
+
+Started GET "/get_tweets?callback=tweets_38851&hashtag1=yolo&hashtag2=kanye" for 10.101.100.134 at 2013-10-24 22:14:28 -0700
+Processing by SessionsController#get_tweets as HTML
+  Parameters: {"callback"=>"tweets_38851", "hashtag1"=>"yolo", "hashtag2"=>"kanye"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1
+Completed 500 Internal Server Error in 3039ms
+
+SystemStackError (stack level too deep):
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:70
+
+
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.4ms)
+
+
+Started GET "/get_tweets?hashtag1=yolo&hashtag2=kanye" for 10.101.100.134 at 2013-10-24 22:14:43 -0700
+Processing by SessionsController#get_tweets as HTML
+  Parameters: {"hashtag1"=>"yolo", "hashtag2"=>"kanye"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Completed 500 Internal Server Error in 2620ms
+
+SystemStackError (stack level too deep):
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:70
+
+
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.9ms)
+
+
+Started GET "/get_tweets?hashtag1=soccer&hashtag2=football" for 10.101.100.134 at 2013-10-24 22:15:06 -0700
+Processing by SessionsController#get_tweets as HTML
+  Parameters: {"hashtag1"=>"soccer", "hashtag2"=>"football"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1
+Completed 500 Internal Server Error in 2588ms
+
+SystemStackError (stack level too deep):
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:70
+
+
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.4ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_91795" for 10.101.100.134 at 2013-10-24 22:22:34 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_91795"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Completed 500 Internal Server Error in 3278ms
+
+SystemStackError (stack level too deep):
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:70
+
+
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.0ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_91795" for 10.101.100.134 at 2013-10-24 22:22:56 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_91795"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1
+Completed 500 Internal Server Error in 3042ms
+
+SystemStackError (stack level too deep):
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:70
+
+
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.2ms)
+
+
+Started GET "/users/0" for 10.101.100.134 at 2013-10-24 22:29:26 -0700
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"0"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 0 LIMIT 1[0m
+Completed 404 Not Found in 2ms
+
+ActiveRecord::RecordNotFound (Couldn't find User with id=0):
+  app/controllers/users_controller.rb:4:in `show'
+
+
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.3ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_38851&hashtag1=yolo&hashtag2=kanye" for 10.101.100.134 at 2013-10-24 22:30:02 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_38851", "hashtag1"=>"yolo", "hashtag2"=>"kanye"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1
+Completed 500 Internal Server Error in 3530ms
+
+SystemStackError (stack level too deep):
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:70
+
+
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.4ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_38851&hashtag1=soccer&hashtag2=football" for 10.101.100.134 at 2013-10-24 22:30:14 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_38851", "hashtag1"=>"soccer", "hashtag2"=>"football"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Completed 500 Internal Server Error in 3047ms
+
+SystemStackError (stack level too deep):
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:70
+
+
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.4ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_14162" for 10.101.100.134 at 2013-10-24 22:35:00 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_14162"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1
+Completed 500 Internal Server Error in 2488ms
+
+SystemStackError (stack level too deep):
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:70
+
+
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.7ms)
+
+
+Started GET "/get_tweets.jsonp?hashtag1=soccer&hashtag2=football&callback=tweets_63191" for 10.101.100.134 at 2013-10-24 22:37:09 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"hashtag1"=>"soccer", "hashtag2"=>"football", "callback"=>"tweets_63191"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Completed 500 Internal Server Error in 2504ms
+
+SystemStackError (stack level too deep):
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:70
+
+
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.0ms)
+
+
+Started GET "/get_tweets.jsonp?hashtag1=soccer&hashtag2=football&callback=tweets_63191" for 10.101.100.134 at 2013-10-24 22:37:17 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"hashtag1"=>"soccer", "hashtag2"=>"football", "callback"=>"tweets_63191"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1
+Completed 500 Internal Server Error in 2457ms
+
+SystemStackError (stack level too deep):
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:70
+
+
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.7ms)
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT `users`.* FROM `users`[0m
+  [1m[35m (40.5ms)[0m  SELECT COUNT(*) FROM `users`
+
+
+Started GET "/get_tweets.jsonp?hashtag1=soccer&hashtag2=football&callback=tweets_63191" for 10.101.100.134 at 2013-10-24 22:38:46 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"hashtag1"=>"soccer", "hashtag2"=>"football", "callback"=>"tweets_63191"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`username` IS NULL LIMIT 1[0m
+Completed 500 Internal Server Error in 2562ms
+
+SystemStackError (stack level too deep):
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:70
+
+
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.0ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_38851&hashtag1=soccer&hashtag2=football&username=cody" for 10.101.100.134 at 2013-10-24 22:39:40 -0700
+
+ActiveRecord::ConnectionTimeoutError (could not obtain a database connection within 5.000 seconds (waited 5.000 seconds)):
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:190:in `block in wait_poll'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `loop'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:181:in `wait_poll'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:136:in `block in poll'
+  /home/local/OFFICE/jsulistio/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:146:in `synchronize'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:134:in `poll'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:423:in `acquire_connection'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:356:in `block in checkout'
+  /home/local/OFFICE/jsulistio/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:355:in `checkout'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:265:in `block in connection'
+  /home/local/OFFICE/jsulistio/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:264:in `connection'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:546:in `retrieve_connection'
+  activerecord (4.0.0) lib/active_record/connection_handling.rb:79:in `retrieve_connection'
+  activerecord (4.0.0) lib/active_record/connection_handling.rb:53:in `connection'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:51:in `restore_query_cache_settings'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:43:in `rescue in call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:32:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__261319135817202296__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/local/OFFICE/jsulistio/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/local/OFFICE/jsulistio/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/local/OFFICE/jsulistio/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.4ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users`[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT `users`.* FROM `users` ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  DELETE FROM `users` WHERE `users`.`id` = 1
+  [1m[36m (157.8ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (0.8ms)[0m  SELECT `users`.* FROM `users`
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`username` = 'asdf' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO `users` (`created_at`, `updated_at`, `username`) VALUES ('2013-10-25 05:41:02', '2013-10-25 05:41:02', 'asdf')[0m
+  [1m[35m (183.2ms)[0m  COMMIT
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT `users`.* FROM `users`[0m
+  [1m[35mUser Load (0.6ms)[0m  SELECT `users`.* FROM `users` ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  DELETE FROM `users` WHERE `users`.`id` = 2
+  [1m[36m (204.8ms)[0m  [1mCOMMIT[0m
+
+
+Started GET "/get_tweets?username=jonny&hashtag1=soccer&hashtag2=football" for 10.101.100.182 at 2013-10-24 22:42:04 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by SessionsController#get_tweets as HTML
+  Parameters: {"username"=>"jonny", "hashtag1"=>"soccer", "hashtag2"=>"football"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` = 'jonny' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `users` (`created_at`, `updated_at`, `username`) VALUES ('2013-10-25 05:42:05', '2013-10-25 05:42:05', 'jonny')
+  [1m[36m (1524.5ms)[0m  [1mCOMMIT[0m
+Completed 500 Internal Server Error in 4222ms
+
+SystemStackError (stack level too deep):
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:70
+
+
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.9ms)
+  [1m[35mUser Load (0.8ms)[0m  SELECT `users`.* FROM `users`
+
+
+Started GET "/get_tweets?username=jonny&hashtag1=soccer&hashtag2=football" for 10.101.100.182 at 2013-10-24 22:44:22 -0700
+Processing by SessionsController#get_tweets as HTML
+  Parameters: {"username"=>"jonny", "hashtag1"=>"soccer", "hashtag2"=>"football"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` = 'jonny' LIMIT 1
+Completed 500 Internal Server Error in 71166ms
+
+SystemStackError (stack level too deep):
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:70
+
+
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.9ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_38851&hashtag1=soccer&hashtag2=football&username=cody" for 10.101.100.134 at 2013-10-24 22:45:33 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_38851", "hashtag1"=>"soccer", "hashtag2"=>"football", "username"=>"cody"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`username` = 'cody' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `users` (`created_at`, `updated_at`, `username`) VALUES ('2013-10-25 05:45:33', '2013-10-25 05:45:33', 'cody')[0m
+  [1m[35m (205.2ms)[0m  COMMIT
+Completed 500 Internal Server Error in 7592ms
+
+SystemStackError (stack level too deep):
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:70
+
+
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.8ms)
+
+
+Started GET "/get_tweets?username=jonny&hashtag1=soccer&hashtag2=football" for 10.101.100.182 at 2013-10-24 22:46:21 -0700
+Processing by SessionsController#get_tweets as HTML
+  Parameters: {"username"=>"jonny", "hashtag1"=>"soccer", "hashtag2"=>"football"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`username` = 'jonny' LIMIT 1[0m
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mScore Load (0.4ms)[0m  SELECT `scores`.* FROM `scores` WHERE `scores`.`user_id` = 3
+Completed 500 Internal Server Error in 380712ms
+
+SystemStackError (stack level too deep):
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:70
+
+
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.2ms)
+
+
+Started GET "/get_tweets?username=jonny&hashtag1=soccer&hashtag2=football" for 10.101.100.182 at 2013-10-24 22:52:50 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by SessionsController#get_tweets as HTML
+  Parameters: {"username"=>"jonny", "hashtag1"=>"soccer", "hashtag2"=>"football"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` = 'jonny' LIMIT 1
+Completed 200 OK in 35054ms (Views: 0.1ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/get_tweets?username=jonny&hashtag1=soccer&hashtag2=football" for 10.101.100.182 at 2013-10-24 22:53:47 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by SessionsController#get_tweets as HTML
+  Parameters: {"username"=>"jonny", "hashtag1"=>"soccer", "hashtag2"=>"football"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` = 'jonny' LIMIT 1
+  [1m[36mScore Load (0.1ms)[0m  [1mSELECT `scores`.* FROM `scores` WHERE `scores`.`user_id` = 3[0m
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mScore Load (0.3ms)[0m  SELECT `scores`.* FROM `scores`
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO `scores` (`created_at`, `updated_at`, `user_id`, `value`) VALUES ('2013-10-25 05:54:14', '2013-10-25 05:54:14', 3, 100)
+  [1m[36m (183.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `scores` (`created_at`, `updated_at`, `user_id`, `value`) VALUES ('2013-10-25 05:54:17', '2013-10-25 05:54:17', 3, 200)[0m
+  [1m[35m (117.3ms)[0m  COMMIT
+  [1m[35mCACHE (0.0ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` = 'jonny' LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `scores`.* FROM `scores` WHERE `scores`.`user_id` = 3[0m  [["user_id", 3]]
+  [1m[35mCACHE (0.1ms)[0m  SELECT `scores`.* FROM `scores` WHERE `scores`.`user_id` = 3  [["user_id", 3]]
+Completed 200 OK in 60944ms (Views: 0.2ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/get_tweets?username=jonny&hashtag1=soccer&hashtag2=football" for 10.101.100.182 at 2013-10-24 22:54:52 -0700
+Processing by SessionsController#get_tweets as HTML
+  Parameters: {"username"=>"jonny", "hashtag1"=>"soccer", "hashtag2"=>"football"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`username` = 'jonny' LIMIT 1[0m
+  [1m[35mScore Load (0.7ms)[0m  SELECT `scores`.* FROM `scores` WHERE `scores`.`user_id` = 3
+Completed 200 OK in 62508ms (Views: 0.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/get_tweets?username=jonny&hashtag1=soccer&hashtag2=football" for 10.101.100.182 at 2013-10-24 22:55:57 -0700
+Processing by SessionsController#get_tweets as HTML
+  Parameters: {"username"=>"jonny", "hashtag1"=>"soccer", "hashtag2"=>"football"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`username` = 'jonny' LIMIT 1[0m
+  [1m[35mScore Load (0.2ms)[0m  SELECT `scores`.* FROM `scores` WHERE `scores`.`user_id` = 3
+Completed 200 OK in 25094ms (Views: 0.3ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/get_tweets?username=jonny&hashtag1=soccer&hashtag2=football" for 10.101.100.182 at 2013-10-24 22:57:12 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by SessionsController#get_tweets as HTML
+  Parameters: {"username"=>"jonny", "hashtag1"=>"soccer", "hashtag2"=>"football"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` = 'jonny' LIMIT 1
+  [1m[36mScore Load (0.1ms)[0m  [1mSELECT `scores`.* FROM `scores` WHERE `scores`.`user_id` = 3[0m
+Completed 200 OK in 10444ms (Views: 0.1ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/get_tweets.jsonp?callback=tweets_38851&hashtag1=soccer&hashtag2=football&username=cody" for 10.101.100.134 at 2013-10-24 22:57:35 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"callback"=>"tweets_38851", "hashtag1"=>"soccer", "hashtag2"=>"football", "username"=>"cody"}
+  [1m[35mUser Load (0.6ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` = 'cody' LIMIT 1
+  [1m[36mScore Load (0.3ms)[0m  [1mSELECT `scores`.* FROM `scores` WHERE `scores`.`user_id` = 4[0m
+Completed 200 OK in 5295ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/users.jsonp?callback=tweets_38851&username=cody" for 10.101.100.134 at 2013-10-24 23:00:02 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+
+ActionController::RoutingError (No route matches [GET] "/users.jsonp"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/local/OFFICE/jsulistio/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/local/OFFICE/jsulistio/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/local/OFFICE/jsulistio/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (25.3ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (47.9ms)
+
+
+Started GET "/get_tweets.jsonp?username=cody&hashtag1=soccer&hashtag2=football&callback=tweets_94314" for 10.101.100.134 at 2013-10-24 23:01:26 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"username"=>"cody", "hashtag1"=>"soccer", "hashtag2"=>"football", "callback"=>"tweets_94314"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` = 'cody' LIMIT 1
+  [1m[36mScore Load (0.3ms)[0m  [1mSELECT `scores`.* FROM `scores` WHERE `scores`.`user_id` = 4[0m
+Completed 200 OK in 2965ms (Views: 0.2ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/get_tweets.jsonp?username=cody&hashtag1=soccer&hashtag2=football&callback=tweets_78590" for 10.101.100.134 at 2013-10-24 23:02:12 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"username"=>"cody", "hashtag1"=>"soccer", "hashtag2"=>"football", "callback"=>"tweets_78590"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` = 'cody' LIMIT 1
+  [1m[36mScore Load (0.1ms)[0m  [1mSELECT `scores`.* FROM `scores` WHERE `scores`.`user_id` = 4[0m
+Completed 200 OK in 49288ms (Views: 0.2ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/get_tweets.jsonp?username=cody&hashtag1=soccer&hashtag2=football&callback=tweets_18421" for 10.101.100.134 at 2013-10-24 23:03:01 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"username"=>"cody", "hashtag1"=>"soccer", "hashtag2"=>"football", "callback"=>"tweets_18421"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` = 'cody' LIMIT 1
+  [1m[36mScore Load (0.3ms)[0m  [1mSELECT `scores`.* FROM `scores` WHERE `scores`.`user_id` = 4[0m
+Completed 200 OK in 5627ms (Views: 0.2ms | ActiveRecord: 4.5ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT `users`.* FROM `users`[0m
+  [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM `users`
+  [1m[36m (0.7ms)[0m  [1mSELECT `users`.`username` FROM `users`[0m
+
+
+Started GET "/get_tweets.jsonp?username=jonny&hashtag1=soccer&hashtag2=football&callback=tweets_12100" for 10.101.100.182 at 2013-10-24 23:04:05 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by SessionsController#get_tweets as 
+  Parameters: {"username"=>"jonny", "hashtag1"=>"soccer", "hashtag2"=>"football", "callback"=>"tweets_12100"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` = 'jonny' LIMIT 1
+  [1m[36mScore Load (0.2ms)[0m  [1mSELECT `scores`.* FROM `scores` WHERE `scores`.`user_id` = 3[0m
+Completed 200 OK in 3031ms (Views: 0.2ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/get_tweets.jsonp?username=cody&hashtag1=soccer&hashtag2=football&callback=tweets_11484" for 10.101.100.134 at 2013-10-24 23:07:15 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"username"=>"cody", "hashtag1"=>"soccer", "hashtag2"=>"football", "callback"=>"tweets_11484"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` = 'cody' LIMIT 1
+  [1m[36mScore Load (0.3ms)[0m  [1mSELECT `scores`.* FROM `scores` WHERE `scores`.`user_id` = 4[0m
+Completed 200 OK in 3752ms (Views: 0.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/get_tweets.jsonp?username=cody&hashtag1=soccer&hashtag2=football&callback=tweets_51280" for 10.101.100.134 at 2013-10-24 23:08:44 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"username"=>"cody", "hashtag1"=>"soccer", "hashtag2"=>"football", "callback"=>"tweets_51280"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` = 'cody' LIMIT 1
+  [1m[36mScore Load (0.4ms)[0m  [1mSELECT `scores`.* FROM `scores` WHERE `scores`.`user_id` = 4[0m
+Completed 200 OK in 3076ms (Views: 0.2ms | ActiveRecord: 0.8ms)
+
+
+Started OPTIONS "/user/user_id?score=0" for 10.101.100.134 at 2013-10-24 23:14:24 -0700
+
+ActionController::RoutingError (No route matches [OPTIONS] "/user/user_id"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/local/OFFICE/jsulistio/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/local/OFFICE/jsulistio/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/local/OFFICE/jsulistio/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (29.0ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (52.4ms)
+
+
+Started GET "/get_tweets.jsonp?username=cody&hashtag1=soccer&hashtag2=football&callback=tweets_44325" for 10.101.100.134 at 2013-10-24 23:14:32 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"username"=>"cody", "hashtag1"=>"soccer", "hashtag2"=>"football", "callback"=>"tweets_44325"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` = 'cody' LIMIT 1
+  [1m[36mScore Load (0.3ms)[0m  [1mSELECT `scores`.* FROM `scores` WHERE `scores`.`user_id` = 4[0m
+Completed 200 OK in 8384ms (Views: 0.2ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/get_tweets?username=jonny&hashtag1=soccer&hashtag2=football" for 10.101.100.182 at 2013-10-24 23:15:04 -0700
+Processing by SessionsController#get_tweets as HTML
+  Parameters: {"username"=>"jonny", "hashtag1"=>"soccer", "hashtag2"=>"football"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` = 'jonny' LIMIT 1
+  [1m[36mScore Load (0.2ms)[0m  [1mSELECT `scores`.* FROM `scores` WHERE `scores`.`user_id` = 3[0m
+Completed 200 OK in 45952ms (Views: 0.2ms | ActiveRecord: 0.7ms)
+
+
+Started OPTIONS "/user/user_id?score=0" for 10.101.100.134 at 2013-10-24 23:15:50 -0700
+
+ActionController::RoutingError (No route matches [OPTIONS] "/user/user_id"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/local/OFFICE/jsulistio/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/local/OFFICE/jsulistio/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/local/OFFICE/jsulistio/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (28.7ms)
+
+
+Started GET "/get_tweets?username=jonny&hashtag1=soccer&hashtag2=football" for 10.101.100.182 at 2013-10-24 23:18:23 -0700
+Processing by SessionsController#get_tweets as HTML
+  Parameters: {"username"=>"jonny", "hashtag1"=>"soccer", "hashtag2"=>"football"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` = 'jonny' LIMIT 1
+  [1m[36mScore Load (0.2ms)[0m  [1mSELECT `scores`.* FROM `scores` WHERE `scores`.`user_id` = 3[0m
+Completed 200 OK in 69170ms (Views: 0.2ms | ActiveRecord: 5.4ms)
+
+
+Started GET "/get_tweets?username=jonny&hashtag1=soccer&hashtag2=football" for 10.101.100.182 at 2013-10-24 23:19:34 -0700
+Processing by SessionsController#get_tweets as HTML
+  Parameters: {"username"=>"jonny", "hashtag1"=>"soccer", "hashtag2"=>"football"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` = 'jonny' LIMIT 1
+  [1m[36mScore Load (0.1ms)[0m  [1mSELECT `scores`.* FROM `scores` WHERE `scores`.`user_id` = 3[0m
+Completed 200 OK in 24496ms (Views: 0.2ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/get_tweets?username=jonny&hashtag1=soccer&hashtag2=football" for 10.101.100.182 at 2013-10-24 23:20:02 -0700
+Processing by SessionsController#get_tweets as HTML
+  Parameters: {"username"=>"jonny", "hashtag1"=>"soccer", "hashtag2"=>"football"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` = 'jonny' LIMIT 1
+  [1m[36mScore Load (0.1ms)[0m  [1mSELECT `scores`.* FROM `scores` WHERE `scores`.`user_id` = 3[0m
+Completed 200 OK in 17388ms (Views: 0.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/get_tweets?username=jonny&hashtag1=soccer&hashtag2=football" for 10.101.100.182 at 2013-10-24 23:20:22 -0700
+Processing by SessionsController#get_tweets as HTML
+  Parameters: {"username"=>"jonny", "hashtag1"=>"soccer", "hashtag2"=>"football"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` = 'jonny' LIMIT 1
+  [1m[36mScore Load (0.2ms)[0m  [1mSELECT `scores`.* FROM `scores` WHERE `scores`.`user_id` = 3[0m
+Completed 200 OK in 72282ms (Views: 0.2ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/get_tweets?username=jonny&hashtag1=soccer&hashtag2=football" for 10.101.100.182 at 2013-10-24 23:21:35 -0700
+Processing by SessionsController#get_tweets as HTML
+  Parameters: {"username"=>"jonny", "hashtag1"=>"soccer", "hashtag2"=>"football"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` = 'jonny' LIMIT 1
+  [1m[36mScore Load (0.2ms)[0m  [1mSELECT `scores`.* FROM `scores` WHERE `scores`.`user_id` = 3[0m
+Completed 200 OK in 9223ms (Views: 0.2ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/get_tweets?username=jonny&hashtag1=soccer&hashtag2=football" for 10.101.100.182 at 2013-10-24 23:21:53 -0700
+Processing by SessionsController#get_tweets as HTML
+  Parameters: {"username"=>"jonny", "hashtag1"=>"soccer", "hashtag2"=>"football"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` = 'jonny' LIMIT 1
+  [1m[36mScore Load (0.2ms)[0m  [1mSELECT `scores`.* FROM `scores` WHERE `scores`.`user_id` = 3[0m
+Completed 200 OK in 5643ms (Views: 0.2ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/get_tweets.jsonp?username=cody&hashtag1=soccer&hashtag2=football&callback=tweets_46154" for 10.101.100.134 at 2013-10-24 23:22:34 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"username"=>"cody", "hashtag1"=>"soccer", "hashtag2"=>"football", "callback"=>"tweets_46154"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` = 'cody' LIMIT 1
+  [1m[36mScore Load (0.4ms)[0m  [1mSELECT `scores`.* FROM `scores` WHERE `scores`.`user_id` = 4[0m
+Completed 200 OK in 5210ms (Views: 0.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/get_tweets.jsonp?username=cody&hashtag1=soccer&hashtag2=football&callback=tweets_26515" for 10.101.100.134 at 2013-10-24 23:25:45 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"username"=>"cody", "hashtag1"=>"soccer", "hashtag2"=>"football", "callback"=>"tweets_26515"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` = 'cody' LIMIT 1
+  [1m[36mScore Load (0.4ms)[0m  [1mSELECT `scores`.* FROM `scores` WHERE `scores`.`user_id` = 4[0m
+Completed 200 OK in 4920ms (Views: 0.2ms | ActiveRecord: 0.8ms)
+
+
+Started OPTIONS "/user/user_id?score=30" for 10.101.100.134 at 2013-10-24 23:26:51 -0700
+
+ActionController::RoutingError (No route matches [OPTIONS] "/user/user_id"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/local/OFFICE/jsulistio/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/local/OFFICE/jsulistio/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/local/OFFICE/jsulistio/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (23.5ms)
+
+
+Started OPTIONS "/user/user_id?score=30" for 10.101.100.134 at 2013-10-24 23:27:15 -0700
+
+ActionController::RoutingError (No route matches [OPTIONS] "/user/user_id"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/local/OFFICE/jsulistio/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/local/OFFICE/jsulistio/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/local/OFFICE/jsulistio/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (19.9ms)
+
+
+Started GET "/get_tweets?username=jonny&hashtag1=soccer&hashtag2=basketball" for 10.101.100.182 at 2013-10-24 23:27:29 -0700
+Processing by SessionsController#get_tweets as HTML
+  Parameters: {"username"=>"jonny", "hashtag1"=>"soccer", "hashtag2"=>"basketball"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` = 'jonny' LIMIT 1
+  [1m[36mScore Load (0.2ms)[0m  [1mSELECT `scores`.* FROM `scores` WHERE `scores`.`user_id` = 3[0m
+Completed 500 Internal Server Error in 2528ms
+
+Twitter::Error::Forbidden (Unable to verify your credentials):
+  app/controllers/sessions_controller.rb:15:in `block in get_tweets'
+  app/controllers/sessions_controller.rb:14:in `each'
+  app/controllers/sessions_controller.rb:14:in `get_tweets'
+
+
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.3ms)
+
+
+Started GET "/get_tweets?username=jonny&hashtag1=soccer&hashtag2=basketball" for 10.101.100.182 at 2013-10-24 23:29:11 -0700
+Processing by SessionsController#get_tweets as HTML
+  Parameters: {"username"=>"jonny", "hashtag1"=>"soccer", "hashtag2"=>"basketball"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` = 'jonny' LIMIT 1
+  [1m[36mScore Load (0.3ms)[0m  [1mSELECT `scores`.* FROM `scores` WHERE `scores`.`user_id` = 3[0m
+Completed 500 Internal Server Error in 223ms
+
+Twitter::Error::Forbidden (Unable to verify your credentials):
+  app/controllers/sessions_controller.rb:12:in `get_tweets'
+
+
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.9ms)
+
+
+Started GET "/get_tweets?username=jonny&hashtag1=soccer&hashtag2=basketball" for 10.101.100.182 at 2013-10-24 23:29:15 -0700
+Processing by SessionsController#get_tweets as HTML
+  Parameters: {"username"=>"jonny", "hashtag1"=>"soccer", "hashtag2"=>"basketball"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` = 'jonny' LIMIT 1
+  [1m[36mScore Load (0.2ms)[0m  [1mSELECT `scores`.* FROM `scores` WHERE `scores`.`user_id` = 3[0m
+Completed 500 Internal Server Error in 198ms
+
+Twitter::Error::Forbidden (Unable to verify your credentials):
+  app/controllers/sessions_controller.rb:12:in `get_tweets'
+
+
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.9ms)
+
+
+Started GET "/get_tweets?username=jonny&hashtag1=soccer&hashtag2=basketball" for 10.101.100.182 at 2013-10-24 23:29:16 -0700
+Processing by SessionsController#get_tweets as HTML
+  Parameters: {"username"=>"jonny", "hashtag1"=>"soccer", "hashtag2"=>"basketball"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` = 'jonny' LIMIT 1
+  [1m[36mScore Load (0.1ms)[0m  [1mSELECT `scores`.* FROM `scores` WHERE `scores`.`user_id` = 3[0m
+Completed 500 Internal Server Error in 197ms
+
+Twitter::Error::Forbidden (Unable to verify your credentials):
+  app/controllers/sessions_controller.rb:12:in `get_tweets'
+
+
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.9ms)
+
+
+Started GET "/get_tweets?username=jonny&hashtag1=soccer&hashtag2=football" for 10.101.100.182 at 2013-10-24 23:29:19 -0700
+Processing by SessionsController#get_tweets as HTML
+  Parameters: {"username"=>"jonny", "hashtag1"=>"soccer", "hashtag2"=>"football"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` = 'jonny' LIMIT 1
+  [1m[36mScore Load (0.1ms)[0m  [1mSELECT `scores`.* FROM `scores` WHERE `scores`.`user_id` = 3[0m
+Completed 500 Internal Server Error in 181ms
+
+Twitter::Error::Forbidden (Unable to verify your credentials):
+  app/controllers/sessions_controller.rb:12:in `get_tweets'
+
+
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.2ms)
+
+
+Started GET "/get_tweets.jsonp?username=cody&hashtag1=soccer&hashtag2=football&callback=tweets_62311" for 10.101.100.134 at 2013-10-24 23:31:07 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"username"=>"cody", "hashtag1"=>"soccer", "hashtag2"=>"football", "callback"=>"tweets_62311"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` = 'cody' LIMIT 1
+  [1m[36mScore Load (0.2ms)[0m  [1mSELECT `scores`.* FROM `scores` WHERE `scores`.`user_id` = 4[0m
+Completed 200 OK in 5609ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/user/user_id?score=20" for 10.101.100.134 at 2013-10-24 23:32:13 -0700
+
+ActionController::RoutingError (No route matches [GET] "/user/user_id"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/local/OFFICE/jsulistio/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/local/OFFICE/jsulistio/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/local/OFFICE/jsulistio/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (19.7ms)
+  [1m[35mScore Load (0.8ms)[0m  SELECT `scores`.* FROM `scores` ORDER BY `scores`.`id` DESC LIMIT 1
+  [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM `scores`[0m
+
+
+Started GET "/get_tweets.jsonp?username=cody&hashtag1=soccer&hashtag2=football&callback=tweets_76172" for 10.101.100.134 at 2013-10-24 23:34:15 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"username"=>"cody", "hashtag1"=>"soccer", "hashtag2"=>"football", "callback"=>"tweets_76172"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` = 'cody' LIMIT 1
+  [1m[36mScore Load (0.2ms)[0m  [1mSELECT `scores`.* FROM `scores` WHERE `scores`.`user_id` = 4[0m
+Completed 200 OK in 4787ms (Views: 31.3ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/user/4?score=-10" for 10.101.100.134 at 2013-10-24 23:34:40 -0700
+
+ActionController::RoutingError (No route matches [GET] "/user/4"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/local/OFFICE/jsulistio/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/local/OFFICE/jsulistio/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/local/OFFICE/jsulistio/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (18.5ms)
+
+
+Started GET "/get_tweets.jsonp?username=cody&hashtag1=soccer&hashtag2=football&callback=tweets_90019" for 10.101.100.134 at 2013-10-24 23:35:17 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"username"=>"cody", "hashtag1"=>"soccer", "hashtag2"=>"football", "callback"=>"tweets_90019"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` = 'cody' LIMIT 1
+  [1m[36mScore Load (0.3ms)[0m  [1mSELECT `scores`.* FROM `scores` WHERE `scores`.`user_id` = 4[0m
+Completed 200 OK in 5402ms (Views: 0.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users/4?score=10" for 10.101.100.134 at 2013-10-24 23:35:43 -0700
+Processing by UsersController#update as HTML
+  Parameters: {"score"=>"10", "id"=>"4"}
+  [1m[35mUser Load (0.6ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 4 LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO `scores` (`created_at`, `updated_at`, `user_id`, `value`) VALUES ('2013-10-25 06:35:43', '2013-10-25 06:35:43', 4, 10)
+  [1m[36m (208.8ms)[0m  [1mCOMMIT[0m
+Completed 500 Internal Server Error in 238ms
+
+ActionView::MissingTemplate (Missing template users/update, application/update with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :raw, :ruby, :jbuilder, :coffee]}. Searched in:
+  * "/home/local/OFFICE/jsulistio/Documents/hackathon-team-c-q-j/app/views"
+):
+  actionpack (4.0.0) lib/action_view/path_set.rb:46:in `find'
+  actionpack (4.0.0) lib/action_view/lookup_context.rb:115:in `find'
+  actionpack (4.0.0) lib/action_view/renderer/abstract_renderer.rb:18:in `find_template'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:35:in `determine_template'
+  actionpack (4.0.0) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionpack (4.0.0) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionpack (4.0.0) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:127:in `_render_template'
+  actionpack (4.0.0) lib/action_controller/metal/streaming.rb:219:in `_render_template'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:120:in `render_to_body'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+  actionpack (4.0.0) lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:97:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.0.0) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/local/OFFICE/jsulistio/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (4.0.0) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.0.0) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.0.0) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.0.0) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:403:in `_run__2294239089797201810__process_action__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__3140472188165604439__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/local/OFFICE/jsulistio/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/local/OFFICE/jsulistio/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/local/OFFICE/jsulistio/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/local/OFFICE/jsulistio/.rvm/gems/ruby-1.9.3-p0@twitter-shooter/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.5ms)
+
+
+Started GET "/users/4?score=10" for 10.101.100.134 at 2013-10-24 23:36:27 -0700
+Processing by UsersController#update as HTML
+  Parameters: {"score"=>"10", "id"=>"4"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 4 LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `scores` (`created_at`, `updated_at`, `user_id`, `value`) VALUES ('2013-10-25 06:36:27', '2013-10-25 06:36:27', 4, 10)
+  [1m[36m (141.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mScore Load (0.7ms)[0m  SELECT `scores`.* FROM `scores` WHERE `scores`.`user_id` = 4
+Completed 200 OK in 188ms (Views: 0.4ms | ActiveRecord: 147.5ms)
+
+
+Started GET "/users/4?score=-10" for 10.101.100.134 at 2013-10-24 23:36:56 -0700
+Processing by UsersController#update as HTML
+  Parameters: {"score"=>"-10", "id"=>"4"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 4 LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO `scores` (`created_at`, `updated_at`, `user_id`, `value`) VALUES ('2013-10-25 06:36:56', '2013-10-25 06:36:56', 4, -10)[0m
+  [1m[35m (146.6ms)[0m  COMMIT
+  [1m[36mScore Load (0.8ms)[0m  [1mSELECT `scores`.* FROM `scores` WHERE `scores`.`user_id` = 4[0m
+Completed 200 OK in 157ms (Views: 0.1ms | ActiveRecord: 148.7ms)
+  [1m[35mScore Load (0.7ms)[0m  SELECT `scores`.* FROM `scores` ORDER BY `scores`.`id` DESC LIMIT 1
+  [1m[36mScore Load (0.8ms)[0m  [1mSELECT `scores`.* FROM `scores`[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM `users`
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users`[0m
+
+
+Started GET "/users/4?score=-20" for 10.101.100.134 at 2013-10-24 23:37:24 -0700
+Processing by UsersController#update as HTML
+  Parameters: {"score"=>"-20", "id"=>"4"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 4 LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `scores` (`created_at`, `updated_at`, `user_id`, `value`) VALUES ('2013-10-25 06:37:24', '2013-10-25 06:37:24', 4, -20)
+  [1m[36m (163.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mScore Load (0.8ms)[0m  SELECT `scores`.* FROM `scores` WHERE `scores`.`user_id` = 4
+Completed 200 OK in 174ms (Views: 0.2ms | ActiveRecord: 165.7ms)
+
+
+Started GET "/get_tweets.jsonp?username=cody&hashtag1=soccer&hashtag2=football&callback=tweets_90019" for 10.101.100.134 at 2013-10-24 23:37:48 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"username"=>"cody", "hashtag1"=>"soccer", "hashtag2"=>"football", "callback"=>"tweets_90019"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`username` = 'cody' LIMIT 1[0m
+  [1m[35mScore Load (0.4ms)[0m  SELECT `scores`.* FROM `scores` WHERE `scores`.`user_id` = 4
+Completed 200 OK in 3098ms (Views: 0.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/get_tweets.jsonp?username=cody&hashtag1=soccer&hashtag2=football&callback=tweets_03776&_1382683120323=" for 10.101.100.134 at 2013-10-24 23:38:40 -0700
+Processing by SessionsController#get_tweets as 
+  Parameters: {"username"=>"cody", "hashtag1"=>"soccer", "hashtag2"=>"football", "callback"=>"tweets_03776", "_1382683120323"=>""}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`username` = 'cody' LIMIT 1[0m
+  [1m[35mScore Load (0.4ms)[0m  SELECT `scores`.* FROM `scores` WHERE `scores`.`user_id` = 4
+Completed 200 OK in 4859ms (Views: 0.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users/4?score=20" for 10.101.100.134 at 2013-10-24 23:39:05 -0700
+Processing by UsersController#update as HTML
+  Parameters: {"score"=>"20", "id"=>"4"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 4 LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO `scores` (`created_at`, `updated_at`, `user_id`, `value`) VALUES ('2013-10-25 06:39:05', '2013-10-25 06:39:05', 4, 20)[0m
+  [1m[35m (285.6ms)[0m  COMMIT
+  [1m[36mScore Load (0.6ms)[0m  [1mSELECT `scores`.* FROM `scores` WHERE `scores`.`user_id` = 4[0m
+Completed 200 OK in 297ms (Views: 0.2ms | ActiveRecord: 287.4ms)
